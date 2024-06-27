@@ -5,6 +5,8 @@ import Navbar from './components/Navbar/Navbar';
 import Home from "./components/Home/Home";
 import Services from "./components/Services/Services.jsx";
 import Banner from "./components/Banner/Banner.jsx";
+import AppStore from "./components/Appstore/Appstore.jsx"
+import Testimonial from "./components/Testimonial/Testimonial.jsx"
 
 const App = () => {
   useEffect(() => {
@@ -22,6 +24,8 @@ const App = () => {
       <Home/>
       <Services/>
       <Banner/>
+      <AppStore/>
+      <Testimonial/>
     </div>
   )
 }
