@@ -74,7 +74,7 @@ const Testimonial = () => {
   };
   return (
     <div className='py-14 mb-10'>
-      <div className="container">
+      <div data-aos="zoom-in" className="container">
         {/* header section */}
         <div className='text-center mb-10'>
           <h1 className='text-4xl font-bold font-cursive text-gray-800'>
