@@ -6,7 +6,7 @@ const Menus = [
   {
     id: 1,
     name: "Home",
-    link: "/#"
+    link: "/#home"
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center gap-4">
         {/* logo section */}
         <div data-aos="fade-down" data-aos-once="true">
-          <a href="#" className="font-bold text-2xl sm:text-3xl flex justify-center items-center gap-2 tracking-wider font-cursive">
+          <a href="#home" className="font-bold text-2xl sm:text-3xl flex justify-center items-center gap-2 tracking-wider font-cursive">
             <img src={Logo} alt="Logo" className="w-14"/>
             CoffeeMate</a>
         </div>
